@@ -1,0 +1,41 @@
+body{
+  font-family: 'Noto Sans', sans-serif;
+}
+.text-1,.text-2,.text-3{
+  color:red;
+  font-size: 24px;
+  background-color: #CCD44E;
+}
+.text-2{
+  background-color:#A24ED4;
+}
+.text-3{
+  background-color: #4E99D4;
+}
+.text-4{
+  background-color: #ff7a00;
+}
+
+
+/*планшет*/
+@media only screen and (max-width:992px) {
+  .text-1,.text-2, .text-3, .text-4{
+    font-size: 16px;
+    font-weight: 400;
+    background-color: #A8D44E;
+    margin-top: 40px;
+  }
+
+}
+
+
+
+/*смартфоны*/
+@media only screen and (max-width:600px) {
+  .text-1,.text-2, .text-3, .text-4{
+    font-size: 16px;
+    font-weight: 400;
+    background-color: #0045f7;
+    margin-top: 40px;
+  }
+}
